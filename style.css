@@ -7,7 +7,7 @@
 
 body {
     overflow: hidden;
-    background-image: linear-gradient(to right, rgb(255, 94, 0), rgb(127, 30, 238));
+    -webkit-overflow-scrolling: none;
 }
 
 .app {
@@ -15,7 +15,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
+    overflow: hidden;
+    background-image: linear-gradient(to right, rgb(255, 94, 0), rgb(127, 30, 238));
 }
 
 .calculator {

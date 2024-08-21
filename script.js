@@ -2,8 +2,9 @@ const keys = document.querySelectorAll('.key');
 const display_input = document.querySelector('.display .input');
 const display_output = document.querySelector('.display .output');
 
-document.body.style.overflow = 'hidden';
-document.body.style.position = 'fixed';
+document.body.addEventListener('touchmove', function(e) {
+    e.preventDefault();
+}, { passive: false });
 
 let input = "";
 
