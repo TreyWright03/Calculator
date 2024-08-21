@@ -11,7 +11,7 @@
     align-items: center;
     height: 100vh;
     background-image: linear-gradient(to right, rgb(255, 94, 0), rgb(127, 30, 238));
-    
+    overflow: hidden;
 }
 
 .calculator {
