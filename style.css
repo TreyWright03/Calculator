@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
     background-image: linear-gradient(to right, rgb(255, 94, 0), rgb(127, 30, 238));
 }
