@@ -107,3 +107,40 @@ body {
 .keys .key.action span {
     color: #26FED7;
 }
+
+@media only screen and (max-width: 425px){
+    
+    .calculator {
+        background-color: rgb(43, 43, 43);
+        width: 100%;
+        max-width: 300px;
+        min-height: 512px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 1.5rem;
+        overflow: hidden;
+    }
+
+    .display .input {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;   
+    }
+    
+    .display .output {
+        font-size: 2rem;
+        font-weight: 700;
+        width: 100%;
+        max-width: 100%;
+        overflow: auto;
+    }
+
+    .keys .key span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: white;
+    }
+}
